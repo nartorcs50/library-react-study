@@ -19,7 +19,7 @@ const Book = ({ book }) => {
       }, 300);
     };
     return () => {
-      // When the component unmounts
+      // When the component unmounts!
       mountedRef.current = false;
     };
   });
